@@ -11,7 +11,7 @@
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="true">
+          <option name="title_enabled" value="false">
             <options>
               <option name="title_text" value="Bienvenue au Service Système d'Information" />
             </options>
@@ -21,7 +21,7 @@
           </option>
           <option name="sidebar_enabled" value="false">
             <options>
-              <option name="sidebarpos" value="right" />
+              <option name="sidebarpos" value="left" />
             </options>
           </option>
           <optionlist name="tabs">
@@ -1095,6 +1095,17 @@
                 <color rgb="0xBCBCBC" alpha="100" stop="0" />
                 <color rgb="0xBCBCBC" alpha="100" stop="128" />
                 <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
